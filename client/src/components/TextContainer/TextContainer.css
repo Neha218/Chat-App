@@ -1,0 +1,44 @@
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+  color: white;
+  height: 60%;
+  justify-content: space-between;
+}
+
+.activeContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50%;
+}
+
+.activeItem {
+  display: flex;
+  align-items: center;
+  padding-bottom: 3%;
+}
+
+.activeContainer img {
+  padding-left: 10px;
+}
+
+.textContainer h1 {
+  margin-bottom: 0px;
+}
+
+@media (min-width: 320px) and (max-width: 1200px) {
+  .textContainer {
+    display: none;
+  }
+}
+
+.arrow {
+  font-size: 100%;
+  background-color: rgb(60, 76, 114);
+  border-radius: 15%;
+}
+
+.emoj {
+  font-size: 100%;
+}
